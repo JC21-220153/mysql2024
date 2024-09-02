@@ -16,7 +16,7 @@
  
 <body>
 
-<SELECT NEME="ITEM_NO">
+<SELECT NEME="ID=200">
  
 <% for (String[] ss : result) { %>
 	<OPTION VALUE="<%=ss [1] %>">
@@ -24,8 +24,7 @@
 	</OPTION>
 <% } %>
  
-</SELECT>
-<input 
+</SELECT> 
  
 </body>
 </html>
