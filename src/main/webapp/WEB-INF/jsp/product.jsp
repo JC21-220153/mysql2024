@@ -13,6 +13,7 @@
 %>
 
 <body>
+<h1>メーカー一覧</h1>
 <FORM METHOD="GET" ACTION="./item">
 <SELECT NAME="MAKER_CODE">
 
@@ -32,6 +33,8 @@
 %>
 
 <table>
+
+<h2>商品一覧</h2>
 
 <% for (String[] ss2 : result2) { %>
 	<tr>
